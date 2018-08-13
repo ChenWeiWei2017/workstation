@@ -1,0 +1,43 @@
+{
+    "menu" : [{
+        "title" : "会员管理",
+        "icon" : "&#xe62f;",
+        "href" : "",
+        "children" : [{
+            "title" : "会员列表",
+            "icon" : "",
+            "href" : "./test/test"
+        },{
+            "title" : "会员删除",
+            "icon" : "",
+            "href" : "./pages/member/del.html"
+        },{
+            "title" : "会员管理",
+            "icon" : "&#xe7b2;",
+            "href" : "",
+            "spread" : false,
+            "children" : [{
+                "title" : "三级菜单演示",
+                "icon" : "",
+                "href" : "./test/test"
+            },{
+                "title" : "三级菜单演示二",
+                "icon" : "",
+                "href" : "./test/test"
+            }]
+        }]
+    },{
+        "title" : "文件管理",
+        "icon" : "&#xe7d1;",
+        "href" : "",
+        "children" : [{
+            "title" : "文件上传",
+            "icon" : "",
+            "href" : "./test/test"
+        },{
+            "title" : "分类管理",
+            "icon" : "",
+            "href" : "./test/test"
+        }]
+    }]
+}
